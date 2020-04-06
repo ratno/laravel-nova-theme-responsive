@@ -14,6 +14,12 @@ return [
     // If true, the resource tables actions will be always visible (sticky) on mobile
     'resource_tables_sticky_actions_on_mobile' => false,
 
+    // If true, hides the "Create & Add Another" button on "Create" forms
+    'hide_create_and_add_another_button' => false,
+
+    // If true, hides the "Create & Add Another" button on "Create" forms (mobile only)
+    'hide_create_and_add_another_button_on_mobile' => false,
+    
     // If true, hides the "Update & Continue Editing" button on "Update" forms
     'hide_update_and_continue_editing_button' => false,
 

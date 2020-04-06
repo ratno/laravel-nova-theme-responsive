@@ -39,6 +39,10 @@ html[dir="rtl"] .hamburger-menu:before {
     display: none;
 }
 
+.content.hide-create-and-add-another-button button[dusk$='create-and-add-another-button'] {
+    display: none;
+}
+
 /* Resource tables */
 .content.sticky-actions .card table.w-full tbody tr td:last-child, .content.sticky-actions .card table.w-full thead tr th:last-child {
     position: -webkit-sticky;
@@ -211,6 +215,10 @@ html[dir="rtl"] .hamburger-menu:before {
     }
 
     .content.hide-update-and-continue-editing-button-on-mobile button[dusk$='update-and-continue-editing-button'] {
+        display: none;
+    }
+
+    .content.hide-create-and-add-another-button-on-mobile button[dusk$='create-and-add-another-button'] {
         display: none;
     }
 

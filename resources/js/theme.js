@@ -65,6 +65,20 @@ function load() {
       });
     }
 
+    // Hide "Create & Add Another" button
+    if (Nova.config.ntr.hide_create_and_add_another_button) {
+      var contents = document.querySelectorAll('.content');
+      contents.forEach(function(content) {
+        content.classList.add("hide-create-and-add-another-button");
+      });
+    }
+    if (Nova.config.ntr.hide_create_and_add_another_button_on_mobile) {
+      var contents = document.querySelectorAll('.content');
+      contents.forEach(function(content) {
+        content.classList.add("hide-create-and-add-another-button-on-mobile");
+      });
+    }
+
     // Hide "Update & Continue Editing" button
     if (Nova.config.ntr.hide_update_and_continue_editing_button) {
       var contents = document.querySelectorAll('.content');
